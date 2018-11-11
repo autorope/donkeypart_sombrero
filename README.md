@@ -30,8 +30,9 @@ other steering and throttle actuators. This section should look like this..
         throttle_channel=cfg.THROTTLE_CHANNEL,
         throttle_forward_pwm=cfg.THROTTLE_FORWARD_PWM,
         throttle_stop_pwm=THROTTLE_STOPPED_PWM,
-        throttle_reverse_pwm=fg.THROTTLE_REVERSE_PWM)
+        throttle_reverse_pwm=fg.THROTTLE_REVERSE_PWM
+    )
     
-        V.add(sombrero, inputs=['angle', 'throttle'])
+    V.add(sombrero, inputs=['angle', 'throttle'])
     ```
 

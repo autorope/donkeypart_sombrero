@@ -2,9 +2,6 @@ import time
 from gpiozero import LED
 from donkeycar.parts.actuator import PWMSteering, PWMThrottle, PCA9685
 
-
-
-
 class Sombrero:
     """
     Part for custom donkey hat.

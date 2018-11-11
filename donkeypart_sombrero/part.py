@@ -1,9 +1,8 @@
 import time
 from gpiozero import LED
-
 from donkeycar.parts.actuator import PWMSteering, PWMThrottle, PCA9685
 
-import time
+
 
 
 class Sombrero:

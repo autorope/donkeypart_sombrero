@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from ..donkeypart_sombrero import Sombrero
+from donkeypart_sombrero import Sombrero
 
 
 def test_example():

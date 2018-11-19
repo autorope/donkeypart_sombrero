@@ -1,1 +1,0 @@
-from .part import  Sombrero

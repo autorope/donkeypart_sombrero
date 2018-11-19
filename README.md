@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #Donkey Car Sombrero 
 Custom hat to simplify donkey car hardware. 
 =======
@@ -39,5 +39,3 @@ other steering and throttle actuators. This section should look like this..
     
     V.add(sombrero, inputs=['angle', 'throttle'])
     ```
-
->>>>>>> origin/master

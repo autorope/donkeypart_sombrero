@@ -4,7 +4,6 @@ setup(name='donkeypart_sombrero',
       version='0.1',
       description='Library for donkeycar custom hat, the sombrero.',
       long_description="no long description given",
-      long_description_content_type="text/markdown",
       url='https://github.com/autorope/donkeypart_sombrero',
       author='Will Roscoe',
       author_email='wroscoe@gmail.com',
@@ -16,8 +15,8 @@ setup(name='donkeypart_sombrero',
       },
       install_requires=['numpy',
                         'gpiozero',
+                        'donkeypart_PCA9685_actuators@ https://github.com/autorope/donkeypart_PCA9685_actuators/archive/0.1.zip'
                         ],
-
       extras_require={'dev': ['pytest-cov']},
       classifiers=[
           'Development Status :: 3 - Alpha',

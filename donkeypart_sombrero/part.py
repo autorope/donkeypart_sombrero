@@ -4,7 +4,8 @@ try:
 except:
     print('Could not import gpiozero library. This could happen if your computer does not have GPIO pins.')
 
-from donkeycar.parts.actuator import PWMSteering, PWMThrottle, PCA9685
+from donkeypart_PCA9685_actuators import PWMSteering, PWMThrottle, PCA9685
+
 
 import time
 

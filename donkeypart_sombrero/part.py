@@ -1,5 +1,8 @@
-import time
-from gpiozero import LED
+
+try:
+    from gpiozero import LED
+except:
+    print('Could not import gpiozero library. This could happen if your computer does not have GPIO pins.')
 
 from donkeycar.parts.actuator import PWMSteering, PWMThrottle, PCA9685
 

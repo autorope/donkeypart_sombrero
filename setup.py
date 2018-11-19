@@ -8,14 +8,9 @@ setup(name='donkeypart_sombrero',
       author='Will Roscoe',
       author_email='wroscoe@gmail.com',
       license='MIT',
-      entry_points={
-          'console_scripts': [
-              'donkey=donkeycar.management.base:execute_from_command_line',
-          ],
-      },
       install_requires=['numpy',
                         'gpiozero',
-                        'donkeypart_PCA9685_actuators@ https://github.com/autorope/donkeypart_PCA9685_actuators/archive/0.1.zip'
+                        'donkeypart_PCA9685_actuators@ https://github.com/autorope/donkeypart_PCA9685_actuators/archive/0.1.2.zip'
                         ],
       extras_require={'dev': ['pytest-cov']},
       classifiers=[

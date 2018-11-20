@@ -8,6 +8,8 @@ setup(name='donkeypart_sombrero',
       author='Will Roscoe',
       author_email='wroscoe@gmail.com',
       license='MIT',
+
+      #NOTE: The url install method works in the recent version of pip but will not work if moved to pypi.
       install_requires=['numpy',
                         'gpiozero',
                         'donkeypart_PCA9685_actuators@ https://github.com/autorope/donkeypart_PCA9685_actuators/archive/0.1.2.zip'

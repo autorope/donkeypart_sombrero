@@ -12,6 +12,7 @@ setup(name='donkeypart_sombrero',
       #NOTE: The url install method works in the recent version of pip but will not work if moved to pypi.
       install_requires=['numpy',
                         'gpiozero',
+                        'RPi.GPIO',
                         'donkeypart_PCA9685_actuators@ https://github.com/autorope/donkeypart_PCA9685_actuators/archive/0.1.2.zip'
                         ],
       extras_require={'dev': ['pytest-cov']},

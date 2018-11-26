@@ -23,6 +23,7 @@ class Sombrero:
                  throttle_forward_pwm=300,
                  throttle_stop_pwm=350,
                  throttle_reverse_pwm=490):
+        print('print running sombrero init')
 
         self._setup_board()
 
@@ -40,15 +41,20 @@ class Sombrero:
         time.sleep(2)
 
     def _setup_board(self):
+        print('setting enable pin')
         # turn on enable pin so steering and throttle channels work
         self.enable_pin = LED(26, active_high=False)
+        print('turning on enable pin')
         self.enable_pin.on()
 
         # initialize LEDs
+        'initialize LEDS'
         self.led_0 = LED(13, active_high=False)
         self.led_2 = LED(19, active_high=False)
+        print('finished')
 
     def run(self, angle, throttle):
+        #print('running sombrero: angel {} throttle {}'.format(angle, throttle))
         self.steering.run(angle)
         self.throttle.run(throttle)
 

@@ -21,7 +21,7 @@ class Sombrero:
                  steering_right_pwm=490,
                  throttle_channel=1,
                  throttle_forward_pwm=300,
-                 throttle_stopped_pwm=350,
+                 throttle_stop_pwm=350,
                  throttle_reverse_pwm=490):
 
         self._setup_board()
@@ -34,7 +34,7 @@ class Sombrero:
         throttle_controller = PCA9685(throttle_channel)
         self.throttle = PWMThrottle(controller=throttle_controller,
                                     max_pulse=throttle_forward_pwm,
-                                    zero_pulse=throttle_stopped_pwm,
+                                    zero_pulse=throttle_stop_pwm,
                                     min_pulse=throttle_reverse_pwm)
 
         time.sleep(2)

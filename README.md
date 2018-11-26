@@ -1,8 +1,5 @@
-
-#Donkey Car Sombrero 
-Custom hat to simplify donkey car hardware. 
-=======
-# Donkey Sombrero 
+Donkey Car Sombrero 
+======= 
 A Rasperry Pi hat for the Donkey Car that provides a few helpful features. 
 
 * The power for the Raspberry Pi comes from the RC car battery.
